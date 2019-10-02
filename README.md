@@ -1,5 +1,4 @@
-# os
-Operating System Algorithms
+# Operating System Algorithms
 
 ## Contents
 
