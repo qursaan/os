@@ -68,9 +68,9 @@ int main(int argc , char** argv){
 		rn = rand()% range + 1;
 		outputFile << rn  << ' ';
 		if(i%32==0) cout << "\b\b"<< std::flush <<": ";
-    else if(i%32==8) cout << "\b\b"<< std::flush <<"..";
-    else if(i%32==16) cout << "\b\b"<< std::flush <<" :";
-    else if(i%32==24) cout << "\b\b"<< std::flush <<"::";
+    		else if(i%32==8) cout << "\b\b"<< std::flush <<"..";
+    		else if(i%32==16) cout << "\b\b"<< std::flush <<" :";
+    		else if(i%32==24) cout << "\b\b"<< std::flush <<"::";
 	}
 	outputFile.close();
     cout << "\b\bSaved in " << fname << endl;
