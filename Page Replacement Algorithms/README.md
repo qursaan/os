@@ -4,7 +4,7 @@
 
 - **fifo**: Paging using FIFO
 ```
-Usage: .\os.exe <-i FILENAME> [-o FILENAME | -p NUMBER | -a | -s]
+Usage: .\fifo.exe <-i FILENAME> [-o FILENAME | -p NUMBER | -a | -s]
 Required:
         -i,--input FILENAME     the name of input file
 Options:
