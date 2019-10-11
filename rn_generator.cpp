@@ -7,7 +7,7 @@ using namespace std;
 
 static void show_usage(std::string name)
 {
-    std::cerr << "Usage: " << name << "<-n NUMBER | -r NUMBER | -f FILENAME>\n"
+    std::cerr << "Usage: " << name << "[-n NUMBER | -r NUMBER | -f FILENAME]\n"
               << "Options:\n"
               << "\t-h,--help\t\tShow this help message\n"
               << "\t-n,--numbers NUMBER\tthe no of number generated (default 1000)\n"
@@ -44,7 +44,7 @@ int main(int argc , char** argv){
                     std::cerr << "--range option requires one argument." << std::endl;
                     return 1;
                 }
-            }if ((arg == "-f") || (arg == "--filename")) {
+            } else if ((arg == "-f") || (arg == "--filename")) {
                 if (i + 1 < argc) {
                     fname = argv[++i];
                 } else {
@@ -68,9 +68,9 @@ int main(int argc , char** argv){
 		rn = rand()% range + 1;
 		outputFile << rn  << ' ';
 		if(i%32==0) cout << "\b\b"<< std::flush <<": ";
-    		else if(i%32==8) cout << "\b\b"<< std::flush <<"..";
-    		else if(i%32==16) cout << "\b\b"<< std::flush <<" :";
-    		else if(i%32==24) cout << "\b\b"<< std::flush <<"::";
+        else if(i%32==8) cout << "\b\b"<< std::flush <<"..";
+        else if(i%32==16) cout << "\b\b"<< std::flush <<" :";
+        else if(i%32==24) cout << "\b\b"<< std::flush <<"::";
 	}
 	outputFile.close();
     cout << "\b\bSaved in " << fname << endl;
