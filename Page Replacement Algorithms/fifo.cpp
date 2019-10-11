@@ -7,9 +7,9 @@ using namespace std;
 static void show_usage(std::string name)
 {
     std::cerr << "Usage: " << name << "  <-i FILENAME> [-o FILENAME | -p NUMBER | -a | -s]\n"
-              << "Required:\n"
+              << "Required: \n"
               << "\t-i,--input FILENAME\tthe name of input file\n"
-              << "Options:\n"
+              << "Options: \n"
               << "\t-h,--help\t\tShow this help message\n"
               << "\t-o,--output FILENAME\tthe name of output file (default output.csv)\n"
               << "\t-p,--pagesize NUMBER\tthe max of page generated (default 10)\n"
@@ -27,10 +27,9 @@ int main(int argc,char**argv)
     }
     string  input_filename = "input.txt";
     string output_filename = "output.csv";
-    int max_pagesize = 10;
-    bool print = false;
-    bool analysis = false;
-
+    int  max_pagesize = 10;
+    bool print        = false;
+    bool analysis     = false;
 
     /*
         0. READ ARGUEMENTS
