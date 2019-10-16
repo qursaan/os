@@ -1,6 +1,6 @@
 # Operating System Algorithms
 
-## Contents
+## Random Number Generator
 
 - **rn_generator**: Generate a big random number for testing purpose.
 ```
