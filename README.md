@@ -1,6 +1,6 @@
 # Operating System Algorithms
 
-## Contents
+## Random Number Generator
 
 - **rn_generator**: Generate a big random number for testing purpose.
 ```
@@ -11,3 +11,9 @@ Options:
         -r,--range NUMBER       the range of number generated from 0 (default 10)
         -f,--filename FILENAME  the name of output file (default bigfile.txt)
 ```
+
+## Paging Replacement Algorithms
+
+1. FIFO
+2. Second-Chance
+3. Random
