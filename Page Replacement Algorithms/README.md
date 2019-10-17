@@ -30,7 +30,7 @@ Options:
 
 - **secondchance**: Paging using Second-Chance Algorithm
 ```
-Usage: .\random.exe <-i FILENAME> [-o FILENAME | -p NUMBER | -a | -s]
+Usage: .\secondchance.exe <-i FILENAME> [-o FILENAME | -p NUMBER | -a | -s]
 Required:
         -i,--input FILENAME     the name of input file
 Options:
