@@ -1,5 +1,5 @@
 # Operating System Algorithms
-OS is a simple project for gathering Operating system problem and simulating the job for study purpose.
+OS is a simple project that implementing operating system problem and simulating the job for study purpose.
 
 ## Table of Contents
 
