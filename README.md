@@ -1,18 +1,23 @@
 # Operating System Algorithms
+OS is a simple project for gathering Operating system problem and simulating the job for study purpose.
 
+## Table of Contents
 
-## Simulation tools
+### Simulation tools
 
 1. Random Generator
 
-## Paging Replacement Algorithms
+### Paging Replacement Algorithms
 
 1. FIFO
 2. Second-Chance
 3. Random
 
-## Disk Scheduling Algorithms
+### Disk Scheduling Algorithms
 
 1. FCFS
 2. SSTF
 3. SCAN
+
+## Usage
+Go through project's folder for more information about how to use.
