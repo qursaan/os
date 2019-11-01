@@ -99,9 +99,9 @@ int main(int argc,char**argv)
     }
 
     ofstream writer;
-    ifstream reader;
+    ifstream reader(input_filename.c_str());
 
-    if(reader.is_open()){
+    if(!reader.good()){
         cerr<< "Input File not found!\n";
         return 1;
     }
@@ -119,7 +119,8 @@ int main(int argc,char**argv)
         }
         /* START READING */
         reader.open(input_filename);
-
+        reader.clear();
+        reader.seekg(0, ios::beg);
         /*
             1. CREATE MEMORY ARRAY
         */
