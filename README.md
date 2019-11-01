@@ -5,7 +5,8 @@
 [![HitCount](http://hits.dwyl.io/qursaan/os.svg)](http://hits.dwyl.io/qursaan/os)
 [![Dependency Status](https://david-dm.org/qursaan/os.svg)](https://david-dm.org/qursaan/os)
 
-OS is a simple project that implementing operating system problem and simulating the job for study purpose.
+OS is a simple project that implementing operating system problem and simulating the job for study purpose. The goal is to implement most operating system algorithms for student in computer science department.
+
 ## Table of Contents
 
 ### Simulation tools
