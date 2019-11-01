@@ -1,5 +1,6 @@
 # Operating System Algorithms
-[![Build Status](https://travis-ci.org/qursaan/os.svg?branch=master)](https://travis-ci.org/qursaan/os)
+<!--[![Build Status](https://travis-ci.org/qursaan/os.svg?branch=master)](https://travis-ci.org/qursaan/os)
+-->
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/qursaan/os/issues)
 [![HitCount](http://hits.dwyl.io/qursaan/os.svg)](http://hits.dwyl.io/qursaan/os)
 [![Dependency Status](https://david-dm.org/qursaan/os.svg)](https://david-dm.org/qursaan/os)
